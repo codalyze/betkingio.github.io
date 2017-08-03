@@ -8,6 +8,39 @@ body {
   background-color: black;
 }
 
+.hue-background {
+  background-repeat: no-repeat;
+  background-image: url(../images/BG.png);
+  background-position: -310px -235px;
+  background-size: 150% auto;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 990px) {
+  .hue-background {
+    background: transparent;
+    background-image: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .roadmap-graphic-mobile {
+    display: block;
+  }
+  .roadmap-graphic {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .roadmap-graphic-mobile {
+    display: none;
+  }
+  .roadmap-graphic {
+    display: block;
+  }
+}
+
 .btn-primary {
 	width: 40%;
 	border-width: 1px;
@@ -117,7 +150,19 @@ body {
   line-height: 1.286;
   text-align: left;
   letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.countdown-timer {
+  font-size: 20px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.286;
+  text-align: left;
+  letter-spacing: 2px;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 .head-sub-text {
@@ -147,6 +192,7 @@ body {
   height: 100%;
   margin-top: 80px;
   margin-bottom: 50px;
+  margin-left: -18px;
 }
 
 .bklogo-top {
@@ -155,7 +201,7 @@ body {
   max-height: 40px;
   height: 100%;
   float: left;
-  margin-top: 12px;
+  margin-top: 7px;
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -454,8 +500,7 @@ body {
 
 
 .tablet {
-  border-radius: 15px;
-  width: auto; 
+  width: 100%; 
 
 }
 
@@ -596,3 +641,4 @@ body {
     text-align: center;
   }
 }
+
