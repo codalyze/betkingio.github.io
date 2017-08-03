@@ -38,6 +38,9 @@ body {
 	.stats-box{
 			margin-bottom: 5px;
 			margin-top: 5px;
+      width: 50%;
+      margin-left: 0px;
+
     }
 	}
 
@@ -102,7 +105,7 @@ body {
 .tablet-image {
 	width: 611px;
 	height: 415px;
-	/*z-index: 81;*/
+	/*z-index: 81;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: contain;
@@ -568,4 +571,29 @@ body {
   background: none;
   margin-bottom: 18px;
   width: 100%;
+}
+
+@media(max-width: 767px){
+.footer-bg .block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media(max-width: 767px){
+  .footer-bg .block .flex-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width: 767px){
+  .footer-bg .block a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
