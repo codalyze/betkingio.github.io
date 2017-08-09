@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/bg-hue.png");
+  background-image: url("../img/bg-hue.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -10,7 +10,7 @@ body {
 
 .hue-background {
   background-repeat: no-repeat;
-  background-image: url(../images/BG.png);
+  background-image: url(../img/BG.png);
   background-position: -310px -235px;
   background-size: 150% auto;
   padding-bottom: 50px;
@@ -127,7 +127,7 @@ body {
 }
 
 .bk-top-banner {
-	background-image: url(../images/BetKing-bg-top.png);
+	background-image: url(../img/BetKing-bg-top.png);
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: 0 50%;
@@ -338,7 +338,7 @@ body {
   opacity: 0.788;
   height: 50px;
   /*z-index: 432;*/
-  background-image: url("../images/top-banner.png");
+  background-image: url("../img/top-banner.png");
 }
 
 .dropdown-menu {
@@ -407,7 +407,7 @@ body {
 }
 
 .note {
-  background-image: url("../images/profit-bg.png");
+  background-image: url("../img/profit-bg.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -436,7 +436,7 @@ body {
 
 .polygon {
   background-color: rgb(0, 0, 0);
-  background:url("../images/polygon.png");
+  background:url("../img/polygon.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -450,7 +450,7 @@ body {
 
 .polygon-bottom {
   background-color: rgb(0, 0, 0);
-  background:url("../images/polygon-bottom.png");
+  background:url("../img/polygon-bottom.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -563,7 +563,7 @@ body {
 }
 
 .footer-bg {
-  background-image: url("../images/footer-bg.png");
+  background-image: url("../img/footer-bg.png");
   width: 100%;
   height: 342px;
   background-repeat: no-repeat;
