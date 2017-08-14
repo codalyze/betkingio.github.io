@@ -10,7 +10,7 @@ body {
 
 
 .bet-text {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Monda";
   color: rgb(255, 254, 254);
   text-transform: uppercase;
@@ -22,7 +22,7 @@ body {
 }
 
 .bet-odds-heading {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Monda";
   color: rgb(255, 254, 254);
   text-transform: uppercase;
@@ -32,7 +32,7 @@ body {
 }
 
 .bet-odds {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Monda";
   color: rgb(255, 254, 254);
   text-transform: uppercase;
@@ -50,7 +50,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-    font-size: 24px;
+  font-size: 20px;
   font-family: "Monda";
   color: rgb(255, 254, 254);
   text-transform: uppercase;
@@ -69,6 +69,10 @@ body {
     width: auto;
 }
 
+.fighters-margin {
+  margin-right: 10px;
+}
+
 .bet-odds-bottom {
   margin-bottom: 10px;
 }
@@ -80,6 +84,16 @@ body {
 @media (max-width: 767px) {
   .main-bg {
     padding-top: 20px;
+  }
+
+  .fighters {
+    max-height: 300px;
+    height: 100%;
+    width: auto;
+}
+
+  .fighters-margin {
+    margin-right: 0px;
   }
 
   .bet-odds-right {
@@ -214,6 +228,7 @@ body {
 	justify-content: flex-start;
 	display: flex;
 	flex-direction: column;
+  align-items: center;
 }
 
 @media(max-width: 767px) {
