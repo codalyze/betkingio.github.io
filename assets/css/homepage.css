@@ -8,6 +8,130 @@ body {
   background-color: black;
 }
 
+
+.bet-text {
+  font-size: 26px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.bet-odds-heading {
+  font-size: 26px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bet-odds {
+  font-size: 24px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+  
+}
+
+.right-border {
+ border-right: 1px solid white; 
+}
+
+.bet-odds-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+    font-size: 24px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+}
+
+.main-bg {
+  padding-top: 80px;
+}
+
+.bet-odds-bottom {
+  margin-bottom: 60px;
+}
+
+.line {
+  height: 1px;
+}
+
+@media (max-width: 767px) {
+  .main-bg {
+    padding-top: 20px;
+  }
+
+  .bet-odds-right {
+      display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+  .bet-odds-bottom {
+    margin-bottom: 0px;
+  }
+
+  .right-border {
+ border-right: 0px; 
+}
+
+
+  
+.bet-odds-heading {
+  font-size: 18px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bet-odds {
+  font-size: 16px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  
+}
+  .bet-odds-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+    font-size: 16px;
+  font-family: "Monda";
+  color: rgb(255, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bet-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+}
+
+
 .hue-background {
   background-repeat: no-repeat;
   background-image: url(../img/BG.png);
@@ -47,9 +171,9 @@ body {
 	width: 40%;
 	border-width: 1px;
  	border-color: rgb(255, 255, 255);
-  	border-style: solid;
-  	background: none;
-  	border-radius: 20px;
+	border-style: solid;
+	background: none;
+	border-radius: 20px;
 }
 
 .btn-primary:hover {
@@ -57,6 +181,19 @@ body {
 	background: none;
 	border-color: rgb(235, 28, 36);
   border-style: solid;
+}
+
+.bet-btn {
+  width: 40%;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background: none;
+  border-radius: 20px;
+}
+
+.stats-box-container {
+  margin-left: auto;
 }
 
 .stats-box {
@@ -70,6 +207,11 @@ body {
 }
 
 @media(max-width: 767px) {
+
+  .stats-box-container {
+  margin-left: 0px;
+}
+
 	.stats-box{
 			margin-bottom: 5px;
 			margin-top: 5px;
@@ -153,7 +295,7 @@ body {
   line-height: 1.286;
   text-align: left;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .countdown-timer {
@@ -262,8 +404,8 @@ body {
   font-weight: 300;
 }
 
-.section-links {
-  font-size: 14px;
+.section-links a{
+  font-size: 12px;
   font-family: "Roboto";
   color: rgb(203, 203, 203);
   text-decoration: underline;
@@ -272,11 +414,9 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
-.section-links:hover {
+.section-links a:hover {
 	color: rgb(235, 28, 36);
 	background: none;
 }
@@ -690,6 +830,7 @@ body {
   font-family: "Monda";
   line-height: 1.6;
   text-transform: uppercase;
+  margin-top: 40px;
 }
 
 
@@ -760,4 +901,20 @@ body {
   border-left: .5em solid transparent;
   margin-bottom: 0.1rem;
   margin-left: 0.8em;
+}
+
+
+.date-text {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Monda";
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
