@@ -17,8 +17,8 @@ body {
   line-height: 1.2;
   font-weight: 400;
   text-align: left;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .bet-odds-heading {
@@ -63,8 +63,14 @@ body {
   padding-top: 80px;
 }
 
+.fighters {
+    max-height: 500px;
+    height: 100%;
+    width: auto;
+}
+
 .bet-odds-bottom {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .line {
@@ -176,21 +182,26 @@ body {
 	border-radius: 20px;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .bet-btn:hover {
 	color: rgb(235, 28, 36);
 	background: none;
+  border-width: 1px;
 	border-color: rgb(235, 28, 36);
   border-style: solid;
+
 }
 
 .bet-btn {
   width: 40%;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  background: none;
   border-radius: 20px;
+  background-color: rgb(235, 28, 36);
+  font-family: "Roboto";
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+  border: 0px;
 }
+
+
 
 .stats-box-container {
   margin-left: auto;
@@ -200,7 +211,6 @@ body {
 	width: 86px;
 	height: 101px;
 	margin: 0 auto;
-	align-items: center;
 	justify-content: flex-start;
 	display: flex;
 	flex-direction: column;
@@ -906,7 +916,7 @@ body {
 
 .date-text {
   color: rgb(255, 255, 255);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Monda";
   line-height: 1.6;
