@@ -216,6 +216,13 @@ body {
 }
 
 
+.fighters-bg {
+  background-image: url(../img/fighters.png);
+    background-position: 92% -16%;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+}
+
 
 .stats-box-container {
   margin-left: auto;
@@ -231,7 +238,13 @@ body {
   align-items: center;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 1023px) {
+
+.fighters-bg {
+    background-position: 141% 28%;
+    background-repeat: no-repeat;
+    background-size: 73% auto;
+}
 
   .stats-box-container {
   margin-left: 0px;
